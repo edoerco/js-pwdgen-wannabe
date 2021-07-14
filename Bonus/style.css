@@ -4,13 +4,39 @@
     box-sizing: border-box;
 }
 
-.container {
-    height: 700px;
-    width: 600px;
-    margin: 0 auto;
+body {
+    font-family: 'Dancing Script', cursive;
+    background-image: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
 }
 
+.container {
+    height: 1000px;
+    width: 700px;
+    margin: 0 auto;
+    position: relative;
+    background-image: url(https://wiki.bamboomt2.eu/images/8/89/Pergamena_Consigli.png);
+    background-size: cover;
+    background-position: center;
+}
 
+.text {
+    padding: 140px 90px 0;
+}
+
+#dedica {
+    position: absolute;
+    right: 120px;
+    bottom: 130px;
+}
+
+p {
+    font-size: 40px;
+    padding: 30px 35px;
+}
+
+#dedica {
+    font-size: 20px;
+}
 
 /* DEBUG */
 .debug .container {
